@@ -1,7 +1,7 @@
 const express = require("express");
 
 const Resume = require("../models/Resume");
-const Job = require("../models/Job");
+const Job = require("../models/job");
 
 const router = express.Router();
 
