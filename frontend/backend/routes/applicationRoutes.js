@@ -1,7 +1,7 @@
 const express = require("express");
 const Application = require("../models/Application");
 const Notification = require("../models/Notification");
-const Job = require("../models/Job");
+const Job = require("../models/job");
 
 const router = express.Router();
 
