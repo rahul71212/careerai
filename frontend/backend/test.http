@@ -1,4 +1,4 @@
-POST http://localhost:5000/api/auth/signup
+POST http://https://careerai-5.onrender.com/api/auth/signup
 Content-Type: application/json
 
 {
@@ -8,7 +8,7 @@ Content-Type: application/json
 }
 ### Login
 
-POST http://localhost:5000/api/auth/login
+POST https://careerai-5.onrender.com/api/auth/login
 Content-Type: application/json
 
 {
@@ -18,5 +18,5 @@ Content-Type: application/json
 
 ### Protected Route
 
-GET http://localhost:5000/api/protected
+GET https://careerai-5.onrender.com/api/protected
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhOWM2ZWEwNmJkYWMzNTRkMWY4ZjdmYiIsInJvbGUiOiJjYW5kaWRhdGUiLCJpYXQiOjE3ODg2Mzg5ODQsImV4cCI6MTc4OTI0Mzc4NH0.HKr8b8SJ0uMZJ5Oc5yyxdWAXS-iLrH0tTqcByJUQsC4
