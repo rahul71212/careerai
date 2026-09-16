@@ -1,0 +1,22 @@
+POST http://localhost:5000/api/auth/signup
+Content-Type: application/json
+
+{
+  "name": "Rahul",
+  "email": "rp0816060@gmail.com",
+  "password": "123456"
+}
+### Login
+
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "rp0816060@gmail.com",
+  "password": "123456"
+}
+
+### Protected Route
+
+GET http://localhost:5000/api/protected
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhOWM2ZWEwNmJkYWMzNTRkMWY4ZjdmYiIsInJvbGUiOiJjYW5kaWRhdGUiLCJpYXQiOjE3ODg2Mzg5ODQsImV4cCI6MTc4OTI0Mzc4NH0.HKr8b8SJ0uMZJ5Oc5yyxdWAXS-iLrH0tTqcByJUQsC4
